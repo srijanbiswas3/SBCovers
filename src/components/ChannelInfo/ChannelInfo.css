@@ -1,0 +1,65 @@
+/* ChannelInfo.css */
+.channel-detail{
+
+  text-align: left;
+  overflow: auto;
+  padding: 100px;
+  position: fixed;
+  z-index: 1;
+
+  
+}
+
+.channel-banner {
+  transform: scaleX(-1);
+  rotate: 180%;
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: -1;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  overflow: hidden;
+  position: fixed;
+  margin-top: -40px;
+
+
+}
+
+.channel-profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.channel-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.channel-url {
+  margin-bottom: 5px;
+}
+
+.subscriber-count,
+.total-view-count,
+.total-video-count {
+  margin-bottom: 5px;
+}
+
+.subscribe-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Example of a transition */
+}
+
+.subscribe-button:hover {
+  background-color: #cc0000;
+}
